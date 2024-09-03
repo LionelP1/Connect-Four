@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.board {
+    display: flex;
+    background-color: #0e67b9;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(0, 0, 0) 4px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 5px;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid black 2px;
+}
