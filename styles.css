@@ -20,6 +20,11 @@ body {
     display: flex;
     flex-direction: column-reverse;
     margin: 0 5px;
+    gap: 10px;
+}
+
+.column:hover {
+    background-color: #000000;
 }
 
 .cell {
@@ -27,10 +32,18 @@ body {
     height: 80px;
     background-color: #ffffff;
     border-radius: 50%;
-    margin-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     border: solid black 2px;
+}
+
+
+.cell.red {
+    background-color: #ff4136;
+}
+
+.cell.yellow {
+    background-color: #ffdc00;
 }
