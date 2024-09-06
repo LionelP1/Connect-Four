@@ -1,10 +1,21 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
+    text-align: center;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 55px;
+    color: #333;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: bold;
 }
 
 .board {
@@ -121,7 +132,19 @@ body {
     background-color: rgb(204, 41, 41);
 }
 
+.restart-button {
+    background-color: #e6392f;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+}
 
-
-
-
+.restart-button:hover{
+    background-color: #b01d1d;
+}

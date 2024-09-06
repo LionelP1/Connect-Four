@@ -3,7 +3,7 @@ const popup = document.querySelector('.popup');
 const popupMessage = document.querySelector('#popupMessage');
 const popupCloseButton = document.querySelector('.closeBtn');
 const closeSpan = document.querySelector('.close');
-const restartButton = document.querySelector('.restart-button'); // Restart button
+const restartButton = document.querySelector('.restart-button');
 
 let currentPlayer = 'red';
 let boardArray = Array(6).fill(null).map(() => Array(7).fill(null));
